@@ -9,23 +9,33 @@
 /* Begin PBXBuildFile section */
 		39C9B066294C268900E1BB2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C9B065294C268900E1BB2C /* AppDelegate.swift */; };
 		39C9B068294C268900E1BB2C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C9B067294C268900E1BB2C /* SceneDelegate.swift */; };
-		39C9B06A294C268900E1BB2C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C9B069294C268900E1BB2C /* ViewController.swift */; };
-		39C9B06D294C268900E1BB2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39C9B06B294C268900E1BB2C /* Main.storyboard */; };
+		39C9B06A294C268900E1BB2C /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C9B069294C268900E1BB2C /* CollectionViewController.swift */; };
 		39C9B070294C268900E1BB2C /* UnsplashPhotosChiangMai.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 39C9B06E294C268900E1BB2C /* UnsplashPhotosChiangMai.xcdatamodeld */; };
 		39C9B072294C268D00E1BB2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39C9B071294C268D00E1BB2C /* Assets.xcassets */; };
 		39C9B075294C268D00E1BB2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39C9B073294C268D00E1BB2C /* LaunchScreen.storyboard */; };
+		39C9B07D294C28FA00E1BB2C /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C9B07C294C28FA00E1BB2C /* TableViewController.swift */; };
+		39C9B081294C29C000E1BB2C /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C9B080294C29C000E1BB2C /* TabBarViewController.swift */; };
+		39C9B083294C673A00E1BB2C /* PhotosCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C9B082294C673A00E1BB2C /* PhotosCollectionViewCell.swift */; };
+		39C9B085294DA22200E1BB2C /* DetailCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C9B084294DA22100E1BB2C /* DetailCollectionViewController.swift */; };
+		39C9B087294DACD300E1BB2C /* ImageCollectionStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C9B086294DACD300E1BB2C /* ImageCollectionStruct.swift */; };
+		39C9B089294DADCE00E1BB2C /* ImageStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C9B088294DADCE00E1BB2C /* ImageStruct.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		39C9B062294C268900E1BB2C /* UnsplashPhotosChiangMai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnsplashPhotosChiangMai.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39C9B065294C268900E1BB2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39C9B067294C268900E1BB2C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		39C9B069294C268900E1BB2C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		39C9B06C294C268900E1BB2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		39C9B069294C268900E1BB2C /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		39C9B06F294C268900E1BB2C /* UnsplashPhotosChiangMai.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UnsplashPhotosChiangMai.xcdatamodel; sourceTree = "<group>"; };
 		39C9B071294C268D00E1BB2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39C9B074294C268D00E1BB2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		39C9B076294C268D00E1BB2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39C9B07C294C28FA00E1BB2C /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		39C9B080294C29C000E1BB2C /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		39C9B082294C673A00E1BB2C /* PhotosCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewCell.swift; sourceTree = "<group>"; };
+		39C9B084294DA22100E1BB2C /* DetailCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCollectionViewController.swift; sourceTree = "<group>"; };
+		39C9B086294DACD300E1BB2C /* ImageCollectionStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionStruct.swift; sourceTree = "<group>"; };
+		39C9B088294DADCE00E1BB2C /* ImageStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageStruct.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +70,13 @@
 			children = (
 				39C9B065294C268900E1BB2C /* AppDelegate.swift */,
 				39C9B067294C268900E1BB2C /* SceneDelegate.swift */,
-				39C9B069294C268900E1BB2C /* ViewController.swift */,
-				39C9B06B294C268900E1BB2C /* Main.storyboard */,
+				39C9B069294C268900E1BB2C /* CollectionViewController.swift */,
+				39C9B084294DA22100E1BB2C /* DetailCollectionViewController.swift */,
+				39C9B07C294C28FA00E1BB2C /* TableViewController.swift */,
+				39C9B088294DADCE00E1BB2C /* ImageStruct.swift */,
+				39C9B086294DACD300E1BB2C /* ImageCollectionStruct.swift */,
+				39C9B082294C673A00E1BB2C /* PhotosCollectionViewCell.swift */,
+				39C9B080294C29C000E1BB2C /* TabBarViewController.swift */,
 				39C9B071294C268D00E1BB2C /* Assets.xcassets */,
 				39C9B073294C268D00E1BB2C /* LaunchScreen.storyboard */,
 				39C9B076294C268D00E1BB2C /* Info.plist */,
@@ -130,7 +145,6 @@
 			files = (
 				39C9B075294C268D00E1BB2C /* LaunchScreen.storyboard in Resources */,
 				39C9B072294C268D00E1BB2C /* Assets.xcassets in Resources */,
-				39C9B06D294C268900E1BB2C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39C9B089294DADCE00E1BB2C /* ImageStruct.swift in Sources */,
+				39C9B085294DA22200E1BB2C /* DetailCollectionViewController.swift in Sources */,
+				39C9B07D294C28FA00E1BB2C /* TableViewController.swift in Sources */,
 				39C9B070294C268900E1BB2C /* UnsplashPhotosChiangMai.xcdatamodeld in Sources */,
-				39C9B06A294C268900E1BB2C /* ViewController.swift in Sources */,
+				39C9B06A294C268900E1BB2C /* CollectionViewController.swift in Sources */,
+				39C9B081294C29C000E1BB2C /* TabBarViewController.swift in Sources */,
+				39C9B083294C673A00E1BB2C /* PhotosCollectionViewCell.swift in Sources */,
+				39C9B087294DACD300E1BB2C /* ImageCollectionStruct.swift in Sources */,
 				39C9B066294C268900E1BB2C /* AppDelegate.swift in Sources */,
 				39C9B068294C268900E1BB2C /* SceneDelegate.swift in Sources */,
 			);
@@ -151,14 +171,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		39C9B06B294C268900E1BB2C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				39C9B06C294C268900E1BB2C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		39C9B073294C268D00E1BB2C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -298,7 +310,6 @@
 				INFOPLIST_FILE = UnsplashPhotosChiangMai/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -326,7 +337,6 @@
 				INFOPLIST_FILE = UnsplashPhotosChiangMai/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
