@@ -34,8 +34,8 @@ class DetailCollectionViewController: UIViewController {
         label1.textAlignment = .center
         return label1
     }()
-
-
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.addSubview(detailView)
